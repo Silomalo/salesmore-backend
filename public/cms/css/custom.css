@@ -1,0 +1,87 @@
+
+.bg-navbar{
+    background-color: rgb(212, 93, 93);
+}
+
+.sidebar-light .sidebar-brand{
+    background-color: rgb(212, 93, 93);
+}
+.btn-primary{
+    background-color: rgb(90, 103, 221);
+    border-color: rgb(90, 103, 221);
+    float: right;
+}
+.btn-primary:hover{
+    background-color: rgb(212, 93, 93);
+    border-color: rgb(212, 93, 93);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
+    background-color: rgb(212, 93, 93);
+    border-color: rgb(212, 93, 93);
+}
+
+.input-group-prepend span{
+    background-color: rgb(212, 93, 93);
+    border-color: rgb(212, 93, 93);
+}
+.projectCards .card{
+max-height: 25vh;
+background-color: red;
+margin: 0;
+padding: 0;
+}
+.projectCards .card input-group{
+max-height: 25vh;
+background-color: red;
+margin: 0;
+padding: 0;
+}
+.projectCards .card input{
+max-height: 25vh;
+background-color: red;
+margin: 0;
+padding: 0;
+}
+
+
+.crl .card-body{
+    max-height: 300px;
+    position: relative;
+    padding: 0;
+}
+.crl .card-body img{
+    max-height: 300px;
+}
+.crl .card-body .info-body{
+    position: absolute;
+    bottom: 0;
+    top: 5px;
+    width: 100%;
+    padding: 20px;
+    padding-top:0;
+    overflow: auto;
+}
+.crl .card-body .info-body input, textarea{
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #e65723, #f1f1f1);
+  /* background: rgb(66, 50, 249); */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

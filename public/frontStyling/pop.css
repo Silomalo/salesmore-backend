@@ -1,0 +1,66 @@
+
+
+
+.containerMain#blur.active{
+    background-color: rgba(51, 51, 51,.8);
+    pointer-events: none;
+    user-select: none;
+}
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    max-height: 70vh;
+    padding: 00px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #F27649;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 0px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 10000;
+}
+#popup input,textarea {
+    text-transform: capitalize;
+}
+#popup textarea {
+    text-transform: capitalize;
+}
+#popup label {
+    text-transform: capitalize;
+}
+#popup .hidden {
+    visibility: none;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    z-index: 10000;
+}
+.container .row .mytable table {
+    border-collapse: collapse;
+    position: absolute;
+    width: 100%;
+}
+.container .row .mytable table, td {
+    border: 1px solid black;
+}
