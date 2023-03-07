@@ -38,8 +38,8 @@ class QuotationController extends Controller
             foreach ($cart as $item) {
                 //   append name and amount to data[]
                 // concatenate pid, name and amount and append it to data[] as a single entry
-                $data[] = $item['pid'] . ": " . $item['name'] . "@ " . $item['price'];
-                $total += $item['price'] * $item['amount'];
+                $data[] = $item['pid'] . ": " . $item['name'] . "@ " . $item['cost'];
+                $total += $item['cost'] * $item['amount'];
             }
             // stringify data[]
             $data = json_encode($data);
